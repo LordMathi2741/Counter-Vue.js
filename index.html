@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Counter</title>
+</head>
+<body>
+
+    <h1> Counter app</h1>
+    <div id="myapp">
+      <p> {{count}}</p>
+      <div class="container-btn">
+        <button v-on:click="increase">
+            Incrementar
+          </button>
+          <br>
+          <button v-on:click="clear">
+            Limpiar
+          </button>
+      </div>
+    </div>
+    <footer>
+        <p> Developed By LordMathi2741</p>
+    </footer>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
